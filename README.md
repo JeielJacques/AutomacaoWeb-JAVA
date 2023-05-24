@@ -2,4 +2,4 @@
 
 * First comit - TDD
 
-Introdução ao metodo TDD, Criação de validador de medias, aonde primeiro foi desenvolvido o teste e apos isso foi feito o codigo para validar medias
+  Introdução ao metodo TDD, Criação do script para testar o codigo e apos isso, criação do codigo para calculo das medias
