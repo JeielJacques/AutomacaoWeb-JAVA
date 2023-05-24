@@ -10,3 +10,4 @@
   Teste simples para abir pagina web e verificar se está aberta corretamente, fazendo a validação com texto da pagina
   Para fazer a validação do texto foi utilizado o seletor xpath
   
+  
