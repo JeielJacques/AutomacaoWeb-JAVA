@@ -19,7 +19,7 @@
 	Entao (then) a pagina Create New Account deve ser exibida
 
 
-* Cenário: Realizar login com totos os campos
+* Cenário: Realizar login com todos os campos
 	
 	Dado que a modal esteja sendo exibida
 	Quando os campos forem preenchidos da seguinte forma
@@ -41,7 +41,7 @@
 	Entao deve ser possivel logar no sistema
 
 
-* Cenário: Reqlizar login com usuario invalido
+* Cenário: Realizar login com usuario invalido
 	
 	Dado que a modal esteja sendo exibida
 	Quando os campos forem preenchidos da seguinte forma
@@ -52,7 +52,7 @@
 	Entao o sistema devera exibir uma mensagem de erro
 
 
-* Cenário: Reqlizar login com senha invalido
+* Cenário: Realizar login com senha invalido
 	
 	Dado que a modal esteja sendo exibida
 	Quando os campos forem preenchidos da seguinte forma
