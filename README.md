@@ -10,7 +10,7 @@
   Teste simples para abir pagina web e verificar se está aberta corretamente, fazendo a validação utilizando texto (string) da pagina.
   Para fazer a validação do texto foi utilizado o seletor xpath
 
-* Pages, estrutura, refactor e pagefectory
+* Pages, estrutura, refactor e pagefectory (25/05/2023)
 
   Organização do codigo em pacotes, isolando configuracoes do navegador, elementos/acoes da pagina e execução dos testes em si
 
