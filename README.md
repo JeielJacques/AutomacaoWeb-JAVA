@@ -13,7 +13,7 @@
 
 * Pages, estrutura, refactor e pagefectory (25/05/2023)
 
-  Organização do código em pacotes, isolando configura coes do navegador, elementos/acoes da página e execução dos 
+  Organização do código em pacotes, isolando configurações do navegador, elementos/ações da página e execução dos 
   testes em si
 
 * Cenário de testes
