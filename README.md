@@ -16,7 +16,7 @@
   Organização do código em pacotes, isolando configurações do navegador, elementos/ações da página e execução dos 
   testes em si
 
-* Cenário de testes
+* Cenário de testes (26/05/2023)
 
   Foi adicionado documento com cenários de testes, escrito em gherkin, esses cenários servirão de exemplo parar 
   futuras automações no decorrer do curso
