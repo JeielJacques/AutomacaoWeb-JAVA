@@ -14,7 +14,6 @@ public class CursoPage {
         cursoMap = new CursoMap();
         PageFactory.initElements(driver, cursoMap);
     }
-
     public String getTitulo2() {
         return cursoMap.h2Titulo.getText();
     }

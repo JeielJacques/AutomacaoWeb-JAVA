@@ -1,6 +1,7 @@
 package br.com.jeieljacques.automacaoweb;
 
 import br.com.jeieljacques.core.Driver;
+import br.com.jeieljacques.enums.Browser;
 import br.com.jeieljacques.pages.CursoPage;
 import br.com.jeieljacques.pages.PrincipalPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,7 +21,7 @@ public class TesteWeb {
 
     @Before
     public void inicializaTeste(){
-        driverWeb = new Driver("edge");
+        driverWeb = new Driver(Browser.EDGE);
         driver = driverWeb.getDriver();
         driver.get("https://www.chronosacademy.com.br");
         principalPage = new PrincipalPage(driver);

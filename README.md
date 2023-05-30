@@ -20,3 +20,22 @@
 
   Foi adicionado documento com cenários de testes, escrito em gherkin, esses cenários servirão de exemplo parar 
   futuras automações no decorrer do curso
+
+* Cucumber (27/05/2023)
+  
+  Utilizando o cenário de testes proposto, foi adicinonado o pacote ressources/features aonde foi criado o arquivo 
+  login.feature, nesse arquivo serão criadas as funcionalidades relacionada a tela de login, utilizaremos o cucumber 
+  para desenvolver o cenario de teste, apos finalizar a configuracao do arquivo login.feature iremos criar os metodos 
+  para cada passo criado.
+
+* Maps e Pages (29/05/2023)
+
+  Apos a criacao dos metodos, iremos criar os elementos mapeando a tela de loguin e desse mapeamento faremos as ações, 
+  como, clicar em determinado local, inserir texto entre outras ações
+
+* Enum, maps e correcoes de erros (30/05/2023)
+  
+  Foi criado Enum para que seja usado apenas os navegadores pre configurados, sem correr riscos de digitação errada e etc,
+  tambem foi criado novo map e page para validacao de outras paginas no decorrer do teste e corrigido alguns erros ao executar
+  os testes
+  
