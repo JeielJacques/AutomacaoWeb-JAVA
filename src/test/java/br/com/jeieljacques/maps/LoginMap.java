@@ -13,7 +13,7 @@ public class LoginMap {
     @FindBy(css = "*[name='username']")
     public WebElement inpUserName;
     @FindBy(name = "password")
-    public WebElement inpPasseord;
+    public WebElement inpPassword;
     @FindBy(css = "#sign_in_btnundefined")
     public WebElement btnSignIn;
     @FindBy(css = "*[name = 'remember_me']")
@@ -22,5 +22,9 @@ public class LoginMap {
     public WebElement linkCreateAccount;
     @FindBy(css = ".loader")
     public WebElement divLoader;
+    @FindBy(css = ".containMiniTitle")
+    public WebElement textLogado;
+    @FindBy(xpath = "//label[contains(text(), 'Incorrect')]")
+    public WebElement textErroLogin;
 
 }

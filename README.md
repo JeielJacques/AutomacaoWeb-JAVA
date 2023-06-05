@@ -38,4 +38,13 @@
   Foi criado Enum para que seja usado apenas os navegadores pre configurados, sem correr riscos de digitação errada e etc,
   tambem foi criado novo map e page para validacao de outras paginas no decorrer do teste e corrigido alguns erros ao executar
   os testes
+
+* Finalizacao, Jenkins e reports (01/06/2023)
+  
+  Finalizacao dos testes da tela de loguin, instalacao e configuracao dos testes com o Jenkins
+
+* PrintScreen e Headless
+
+  Configuracao de prints da tela, no caso de sucesso ou falha do teste e configuracao do navegador  com o hadless para 
+  que o mesmo funcione em segundo plano
   

@@ -1,5 +1,7 @@
 #language:pt
 
+
+@login
 Funcionalidade: Login
 
   Contexto:
@@ -20,7 +22,7 @@ Funcionalidade: Login
     Quando for realizado um clique no link Create New Account
     Entao a pagina Create New Account deve ser exibida
 
-
+  @loginComSucesso
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login seja preenchidos da seguinte forma
       | usuario | <login>    |
@@ -30,22 +32,23 @@ Funcionalidade: Login
     Entao deve ser possivel logar no sistema
 
     Exemplos:
-      | identificacao       | login   | password | remember |
-      | campos obrigatorios | chronos | senha    | false    |
-      | todos os campos     | chronos | senha    | true     |
+      | identificacao       | login       | password | remember |
+      | campos obrigatorios | Teste_Jeiel | Teste123 | false    |
+      | todos os campos     | Teste_Jeiel | Teste123 | true     |
 
+  @loginInvalido
   Esquema do Cenario: Reqlizar login com <identificacao>
     Quando os campos de login seja preenchidos da seguinte forma
       | usuario | <login>      |
       | senha   | <password>   |
-      | flag    | <remember  > |
+      | flag    | <remember> |
     Quando for realizado o clique no botao sign in
     Entao o sistema devera exibir uma mensagem de erro
 
     Exemplos:
-      | identificacao    | login    | password | remember |
-      | usuario invalido | invalido | senha    | false    |
-      | senha invalida   | chronos  | invalida | false    |
+      | identificacao    | login       | password | remember |
+      | usuario invalido | invalido    | Teste123 | false    |
+      | senha invalida   | Teste_Jeiel | invalida | false    |
 
   @dadosEmBranco
   Esquema do Cenario: Realizar login com <identificacao>
@@ -56,6 +59,6 @@ Funcionalidade: Login
     Entao o botao sign in deve permancecer desabilitado
 
     Exemplos:
-      | identificacao     | login   | password | remember |
-      | usuario em branco |         | senha    | false    |
-      | senha em branco   | chronos |          | false    |
+      | identificacao     | login       | password | remember |
+      | usuario em branco |             | Teste123 | false    |
+      | senha em branco   | Teste_Jeiel |          | false    |
