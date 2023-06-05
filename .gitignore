@@ -1,5 +1,6 @@
 .idea
 target
+src/test/resources/evidencias/*/*.png
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
